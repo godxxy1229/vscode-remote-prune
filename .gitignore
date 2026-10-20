@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.vsix
+__pycache__/
+*.pyc
+.local/
+
+# Generated native executables and local operational evidence.
+/bin/
+/docs/
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+
+# Publish only the selected extension icon.
+/icon/*
+!/icon/icon_2.png

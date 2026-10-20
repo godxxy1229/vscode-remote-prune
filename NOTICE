@@ -1,0 +1,9 @@
+Remote Prune is an independent implementation inspired by operational review
+of VS Code server cleanup. No implementation code from VS Code Bloat Cleaner
+is incorporated in this release.
+
+The statically linked executables contain the Go runtime and standard library.
+Their copyright and BSD license are reproduced in GO-LICENSE.
+
+The TypeScript runtime uses only APIs already provided by VS Code and Node.js.
+Build-only npm dependencies are not included in the VSIX.
